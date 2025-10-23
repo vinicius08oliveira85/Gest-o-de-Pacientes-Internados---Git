@@ -20,8 +20,8 @@ import Toast from './components/Toast.tsx';
 
 const App = () => {
     const [user, setUser] = useState<User | null>(null);
-    const [currentPage, setCurrentPage] = useState<string>('Menu');
-    const [previousPage, setPreviousPage] = useState<string>('Menu');
+    const [currentPage, setCurrentPage] = useState<string>('Login');
+    const [previousPage, setPreviousPage] = useState<string>('Login');
     const [selectedPatient, setSelectedPatient] = useState<Patient | null>(null);
     const [patients, setPatients] = useState<Patient[]>(mockPatients);
     const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
