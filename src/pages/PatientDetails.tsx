@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
+import React, { useState, useEffect, useRef } from 'https://esm.sh/react@18.2.0';
 import { Patient, User, Esperas, HistoryEntry, LeitoType } from '../types/index.ts';
-import { GoogleGenAI, LiveServerMessage, Blob, Modality } from 'https://unpkg.com/@google/genai@0.14.0/dist/index.min.js';
+import { GoogleGenAI, LiveServerMessage, Blob, Modality } from 'https://esm.sh/@google/genai@0.14.0';
 import { createBlob, formatDateDdMmYy } from '../utils/helpers.ts';
 import AppHeader from '../components/AppHeader.tsx';
 import GestaoDeLeito from '../components/GestaoDeLeito.tsx';

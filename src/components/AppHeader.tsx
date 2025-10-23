@@ -1,4 +1,4 @@
-import React from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
+import React from 'https://esm.sh/react@18.2.0';
 import LeveSaudeLogo from './LeveSaudeLogo.tsx';
 
 const AppHeader = ({ title, subtitle, onBack }: { title: string, subtitle: string, onBack?: () => void }) => {

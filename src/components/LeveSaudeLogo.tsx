@@ -1,4 +1,4 @@
-import React from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
+import React from 'https://esm.sh/react@18.2.0';
 
 const LeveSaudeLogo = ({ width, height }: { width?: number | string; height?: number | string }) => (
     <svg width={width} height={height} viewBox="0 0 245 88" fill="none" xmlns="http://www.w3.org/2000/svg">

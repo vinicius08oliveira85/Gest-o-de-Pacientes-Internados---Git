@@ -1,4 +1,4 @@
-import React, { useState } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
+import React, { useState } from 'https://esm.sh/react@18.2.0';
 import { User, Patient, LeitoRecord, LeitoType } from '../types/index.ts';
 import { formatDateDdMmYy } from '../utils/helpers.ts';
 

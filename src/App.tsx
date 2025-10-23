@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
+import React, { useState, useMemo } from 'https://esm.sh/react@18.2.0';
 import { User, Patient, MenuItem, Esperas } from './types/index.ts';
 import { mockPatients } from './data/mockPatients.ts';
 import LoginScreen from './pages/LoginScreen.tsx';
