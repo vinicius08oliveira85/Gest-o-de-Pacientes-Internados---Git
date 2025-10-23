@@ -1,4 +1,4 @@
-import React, { useState } from 'https://esm.sh/react@18.2.0';
+import React, { useState } from 'https://cdn.skypack.dev/react@18.2.0';
 import AppHeader from '../components/AppHeader.tsx';
 
 const PainelIndicadoresInternacao = ({ onBack }: { onBack: () => void }) => {
@@ -62,7 +62,7 @@ const PainelIndicadoresInternacao = ({ onBack }: { onBack: () => void }) => {
                 <div className="time-filter-bar">
                     <button className={`time-filter-button ${timeFilter === 'Ontem' ? 'active' : ''}`} onClick={() => setTimeFilter('Ontem')}>Ontem</button>
                     <button className={`time-filter-button ${timeFilter === 'Semana Passada' ? 'active' : ''}`} onClick={() => setTimeFilter('Semana Passada')}>Semana Passada</button>
-                    <button className={`time-filter-button ${timeFilter === 'Últimos 30 Dias' ? 'active' : ''}`} onClick={() => setTimeFilter('Últimos 30 Dias')}>Últimos 30 dias</button>
+                    <button className={`time-filter-button ${timeFilter === 'Últimos 30 Dias' ? 'active' : ''}`} onClick={() => setTimeFilter('Últimos 30 dias')}>Últimos 30 dias</button>
                 </div>
             </div>
 

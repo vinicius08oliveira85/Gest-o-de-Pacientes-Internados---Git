@@ -1,4 +1,4 @@
-import { Blob } from 'https://esm.sh/@google/genai@0.14.0';
+import { Blob } from 'https://cdn.skypack.dev/@google/genai@0.14.0';
 
 export function encode(bytes: Uint8Array) {
   let binary = '';

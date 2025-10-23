@@ -1,4 +1,4 @@
-import React, { useEffect } from 'https://esm.sh/react@18.2.0';
+import React, { useEffect } from 'https://cdn.skypack.dev/react@18.2.0';
 
 const Toast = ({ message, type, onClose }: { message: string, type: 'success' | 'error', onClose: () => void }) => {
     useEffect(() => {

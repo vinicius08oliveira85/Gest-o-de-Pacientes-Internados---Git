@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'https://esm.sh/react@18.2.0';
+import React, { useState, useMemo } from 'https://cdn.skypack.dev/react@18.2.0';
 import { Patient, User, Esperas } from '../types/index.ts';
 import AppHeader from '../components/AppHeader.tsx';
 import { formatDateDdMmYy } from '../utils/helpers.ts';

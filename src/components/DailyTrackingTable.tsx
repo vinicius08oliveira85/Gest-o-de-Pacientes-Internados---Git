@@ -1,4 +1,4 @@
-import React from 'https://esm.sh/react@18.2.0';
+import React from 'https://cdn.skypack.dev/react@18.2.0';
 import { Patient, User, LeitoType } from '../types/index.ts';
 
 const leitoOptions: LeitoType[] = ['CTI', 'CTI PED', 'CTI NEO', 'USI', 'USI PED', 'UI', 'UI PSQ'];

@@ -1,4 +1,4 @@
-import React, { useState } from 'https://esm.sh/react@18.2.0';
+import React, { useState } from 'https://cdn.skypack.dev/react@18.2.0';
 import { Patient, User, EsperaDesospitalizacaoDetalhes } from '../types/index.ts';
 import AppHeader from '../components/AppHeader.tsx';
 
