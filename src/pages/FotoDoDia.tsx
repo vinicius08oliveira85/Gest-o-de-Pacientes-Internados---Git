@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'https://esm.sh/react@18.2.0';
+import React, { useState, useMemo } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
 import { Patient, User, GuiaStatus, HistoryEntry } from '../types/index.ts';
 import AppHeader from '../components/AppHeader.tsx';
 import { formatDateDdMmYy, calculatePermanencia, formatDateTimeDdMmYy } from '../utils/helpers.ts';

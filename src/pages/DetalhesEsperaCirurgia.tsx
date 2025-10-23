@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'https://esm.sh/react@18.2.0';
+import React, { useState, useMemo } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
 import { Patient, User, EsperaCirurgiaDetalhes } from '../types/index.ts';
 import { calculateDaysBetween } from '../utils/helpers.ts';
 import AppHeader from '../components/AppHeader.tsx';

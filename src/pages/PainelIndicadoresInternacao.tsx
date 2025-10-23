@@ -1,4 +1,4 @@
-import React, { useState } from 'https://esm.sh/react@18.2.0';
+import React, { useState } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
 import AppHeader from '../components/AppHeader.tsx';
 
 const PainelIndicadoresInternacao = ({ onBack }: { onBack: () => void }) => {

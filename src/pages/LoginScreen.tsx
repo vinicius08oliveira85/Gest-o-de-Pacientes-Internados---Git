@@ -1,4 +1,4 @@
-import React, { useState } from 'https://esm.sh/react@18.2.0';
+import React, { useState } from 'https://unpkg.com/react@18.2.0/umd/react.development.js';
 import { User } from '../types/index.ts';
 import LeveSaudeLogo from '../components/LeveSaudeLogo.tsx';
 
